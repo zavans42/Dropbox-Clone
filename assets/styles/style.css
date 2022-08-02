@@ -18,7 +18,8 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inconsolata', monospace;
     line-height: 1.5;
 }
 
@@ -50,7 +51,6 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-    margin: 0.8rem 0;
 }
 
 h4 {
@@ -69,7 +69,63 @@ a {
 /* LAYOUT
 /*******************************************/
 
+/* HEADER */
 
+.navbar * {
+    color: #1e1919;
+    line-height: 5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.6rem;
+}
+
+    #logo {
+        height: 6rem;
+    }
+
+    #navLinks {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+        #dropbox {
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        .navMenu {
+            display: none;
+        }
+
+        #rightNav {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            gap: 2.4rem;
+        }
+
+            .signIn {
+                font-size: 2rem;
+            }
+
+            #hamburger {
+                display: flex;
+            }  
+
+/* MAIN  */
+
+#main {
+    background-color: #1e1919;
+    color: #f7f5f2;
+}
 
 /******************************************
 /* MODULE
