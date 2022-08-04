@@ -170,6 +170,69 @@ a {
         margin-bottom: 3.2rem;
     }
 
+#workOrPersonal {
+    text-align: center;
+    background-color: #f7f5f2;
+}
+
+    #workOrPersonal img {
+        border: 1px solid #e9e6e1;
+    }
+
+    #workOrPersonal .info {
+        background: #ffffff;
+    }
+
+#partners {
+    background-color: #f7f5f2;
+}
+
+    #partners .heading {
+        text-align: center;
+    }
+
+    #partners img {
+        margin: 3.2rem 0;
+        height: 5rem;
+    }
+
+#testimony {
+    background-color: #1e1919;
+    color: #f7f5f2;
+    padding-top: 6.6rem;
+    padding-bottom: 6.6rem;
+}
+
+    #testimony .heading {
+        text-align: center;
+    }
+
+    #testimony img {
+        margin: 3.2rem 0;
+    }
+
+    #testimony a {
+        color: #f7f5f2;
+    }
+
+    #testimony #explore {
+        margin-top: 3.2rem;
+        text-align: center;
+    }
+
+#footer {
+    background-color: #000000;
+    color: #f7f5f2;
+    padding: 6.6rem 2.8rem;
+}
+
+    #footer a {
+        color: #f7f5f2; 
+    }
+
+    #footer h5 {
+        margin-top: 3.2rem;
+    }
 
 /******************************************
 /* MODULE
@@ -201,8 +264,12 @@ a {
 }
 
 .borderTopBtm {
-    border-top: 1px solid #3e3a3a;
-    border-bottom: 1px solid #3e3a3a;
+    border-top: 1px solid #c9c5be;
+    border-bottom: 1px solid #c9c5be;
+}
+
+.hidden {
+    display: none;
 }
 
 /******************************************
