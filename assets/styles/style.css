@@ -79,20 +79,17 @@ a {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     font-size: 2.6rem;
 }
 
     #logo {
-        height: 6rem;
+        max-width: 15%;
     }
 
-    #navLinks {
+    #navMenu {
         display: flex;
         flex: 1;
-        align-items: center;
-        justify-content: space-between;
         padding: 0 2rem;
     }
 
@@ -101,7 +98,7 @@ a {
             font-size: 3rem;
         }
 
-        .navMenu {
+        #navLinks {
             display: none;
         }
 
