@@ -64,8 +64,6 @@ a {
     display: inline-block;
 }
 
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -73,7 +71,6 @@ a {
 /* HEADER */
 
 .navbar * {
-    color: #1e1919;
     line-height: 5rem;
 }
 
@@ -98,10 +95,6 @@ a {
             font-size: 3rem;
         }
 
-        #navLinks {
-            display: none;
-        }
-
         #rightNav {
             flex: 1;
             display: flex;
@@ -121,20 +114,12 @@ a {
 /* MAIN  */
 
 #main {
-    background-color: #1e1919;
-    color: #f7f5f2;
-    padding-top: 6.6rem;
-    padding-bottom: 6.6rem;
+
 }
 
-    #thisIsDropbox {
-        text-align: center;
-        
+    #thisIsDropbox p {
+        margin-bottom: 2.4rem;
     }
-
-        #thisIsDropbox p {
-            margin-bottom: 2.4rem;
-        }
 
     #whyDropbox {
         padding: 0 1.6rem;
@@ -150,13 +135,7 @@ a {
 
 /* FEATURES */
 
-#featuresHeading {
-    text-align: center;
-    background-color: #f7f5f2;
-}
-
 #features {
-    
 }
 
     #features > div {
@@ -168,25 +147,10 @@ a {
     }
 
 #workOrPersonal {
-    text-align: center;
-    background-color: #f7f5f2;
 }
-
-    #workOrPersonal img {
-        border: 1px solid #e9e6e1;
-    }
-
-    #workOrPersonal .info {
-        background: #ffffff;
-    }
 
 #partners {
-    background-color: #f7f5f2;
 }
-
-    #partners .heading {
-        text-align: center;
-    }
 
     #partners img {
         margin: 3.2rem 0;
@@ -194,38 +158,21 @@ a {
     }
 
 #testimony {
-    background-color: #1e1919;
-    color: #f7f5f2;
     padding-top: 6.6rem;
     padding-bottom: 6.6rem;
 }
-
-    #testimony .heading {
-        text-align: center;
-    }
 
     #testimony img {
         margin: 3.2rem 0;
     }
 
-    #testimony a {
-        color: #f7f5f2;
-    }
-
     #testimony #explore {
         margin-top: 3.2rem;
-        text-align: center;
     }
 
 #footer {
-    background-color: #000000;
-    color: #f7f5f2;
     padding: 6.6rem 2.8rem;
 }
-
-    #footer a {
-        color: #f7f5f2; 
-    }
 
     #footer h5 {
         margin-top: 3.2rem;
@@ -235,19 +182,12 @@ a {
 /* MODULE
 /*******************************************/
 
-.btn {
-    background-color: #3984ff;
-    color: #1e1919;;
-    padding: 2.4rem;
-    font-weight: bold;
-}
-
 .inner {
     padding-right: 2.8rem;
     padding-left: 2.8rem;
 }
 
-.outer {
+.outerPadding {
     padding-top: 6.6rem;
     padding-bottom: 6.6rem;
 }
@@ -260,18 +200,78 @@ a {
     margin-top: 6.6rem;
 }
 
-.borderTopBtm {
-    border-top: 1px solid #c9c5be;
-    border-bottom: 1px solid #c9c5be;
+/* button */
+
+.btn {
+    padding: 2.4rem;
 }
 
-.hidden {
-    display: none;
+
+/* text alignment */
+
+.text-center {
+    text-align: center;
 }
+
+/* background color */
+
+.background-dark {
+    background-color: #1e1919;
+}
+
+.background-light {
+    background-color: #f7f5f2;
+}
+
+.background-black {
+    background-color: #000000;
+}
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.background-blue {
+    background-color: #3984ff;
+}
+
+/* font color */
+
+.color-dark {
+    color: #1e1919;
+}
+
+.color-light {
+    color: #f7f5f2;
+}
+
+/* font size */
+
+.font-bold{
+    font-weight: bold;
+}
+
+/* border */
+
+.border-light {
+    border-top: 1px solid #d0ccc6;
+    border-bottom: 1px solid #d0ccc6;
+}
+
+.border-dark {
+    border-top: 1px solid #3c3838;
+    border-bottom: 1px solid #3c3838;
+}
+
+
 
 /******************************************
 /* STATE
 /*******************************************/
+
+.hidden {
+    display: none;
+}
 
 /******************************************
 /* MEDIA QUERIES
