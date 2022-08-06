@@ -182,23 +182,32 @@ a {
 /* MODULE
 /*******************************************/
 
-.inner {
-    padding-right: 2.8rem;
-    padding-left: 2.8rem;
-}
+/* padding & margin */
 
-.outerPadding {
+.padding-outer-vertical {
     padding-top: 6.6rem;
     padding-bottom: 6.6rem;
 }
 
-.innerOuter {
-    padding: 6.6rem 1.6rem;
+.padding-outer-horizontal {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
 }
 
-.innerMargin {
-    margin-top: 6.6rem;
+.padding-inner-vertical {
+    padding-top: 6.6rem;
+    padding-bottom: 6.6rem;
 }
+
+.padding-inner-horizontal {
+    padding-right: 2.8rem;
+    padding-left: 2.8rem;
+}
+
+.margin-inner-bottom {
+    margin-bottom: 6.6rem;
+}
+
 
 /* button */
 
@@ -269,7 +278,7 @@ a {
 /* STATE
 /*******************************************/
 
-.hidden {
+.is-hidden {
     display: none;
 }
 
