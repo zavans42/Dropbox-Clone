@@ -47,7 +47,7 @@ h2 {
 
 h3 {
     font-size: 1.8rem;
-    margin: 1.6rem 0;
+    margin: 2rem 0;
 }
 
 h4 {
@@ -113,13 +113,23 @@ a {
 
 /* MAIN  */
 
-#main {
-
+#main a {
+    margin-top: 2.4rem;
 }
 
     #thisIsDropbox p {
         margin-bottom: 2.4rem;
     }
+
+    #banner {
+        padding-right: 2.8rem;
+        padding-left: 2.8rem;  
+    }
+
+        #banner img {
+            border-left: 1px solid #3c3838;
+            border-right: 1px solid #3c3838;
+        }
 
     #whyDropbox {
         padding: 0 1.6rem;
@@ -138,16 +148,27 @@ a {
 #features {
 }
 
-    #features > div {
-        padding: 0 2.4rem;
+    .feature {
+        display: flex;
+        align-items: center;
+        gap: 0 1.6rem;
+        letter-spacing: -0.1rem;
     }
 
-    .feature > * {
-        margin-bottom: 3.2rem;
+    .feature:last-child {
+        border-bottom: 1px solid #d0ccc6;
     }
 
-#workOrPersonal {
+#workOrPersonal h2 {
 }
+
+    .whatFor {
+        padding: 2.8rem;
+    }
+
+    .whatFor > * {
+        margin-bottom: 2.4rem;
+    }
 
 #partners {
 }
@@ -190,8 +211,8 @@ a {
 }
 
 .padding-outer-horizontal {
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
 }
 
 .padding-inner-vertical {
@@ -220,6 +241,10 @@ a {
 
 .text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 /* background color */
@@ -264,7 +289,6 @@ a {
 
 .border-light {
     border-top: 1px solid #d0ccc6;
-    border-bottom: 1px solid #d0ccc6;
 }
 
 .border-dark {
@@ -272,7 +296,18 @@ a {
     border-bottom: 1px solid #3c3838;
 }
 
+.border-white {
+    border-top: 1px solid #e9e6e1;
+    border-bottom: 1px solid #e9e6e1;
+}
 
+.heading h2{
+    margin-bottom: 0;
+}
+
+.width-full {
+    width: 100%;
+}
 
 /******************************************
 /* STATE
