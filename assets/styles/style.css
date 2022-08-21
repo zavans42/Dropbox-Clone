@@ -171,6 +171,7 @@ a {
     }
 
 #partners {
+    padding: 6.6rem 0;
 }
 
     #partners img {
@@ -184,7 +185,7 @@ a {
 }
 
     #testimony img {
-        margin: 3.2rem 0;
+        margin: 0 0 3.2rem;
     }
 
     #testimony #explore {
@@ -197,6 +198,10 @@ a {
 
     #footer h5 {
         margin-top: 3.2rem;
+    }
+
+    #footer h5:first-of-type {
+        margin-top: 0
     }
 
 /******************************************
