@@ -55,6 +55,10 @@ h4 {
     margin: 3.2rem 0;
 }
 
+h5 {
+    margin: 3.2rem 0;
+}
+
 li {
     list-style: none;
 }
@@ -194,9 +198,21 @@ a {
 #footer {
     padding: 6.6rem 2.8rem;
 }
+    #footer > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2.8rem;
+    }
 
-    #footer h5 {
-        margin-top: 3.2rem;
+
+    #footer a {
+        font-size: 1.4rem;
+    }
+
+    #footer .subSection nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 
 /******************************************
