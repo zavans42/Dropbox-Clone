@@ -182,7 +182,11 @@ a {
     }
 
 #partners {
+<<<<<<< HEAD
     padding-top: 0;
+=======
+    padding: 6.6rem 0;
+>>>>>>> e2c394b7eaaef337a29747434e53bba75fce9bb0
 }
 
     #partners img {
@@ -195,8 +199,13 @@ a {
     padding-bottom: 6.6rem;
 }
 
+<<<<<<< HEAD
     #carousel > div {
         margin: 6.6rem 0;
+=======
+    #testimony img {
+        margin: 0 0 3.2rem;
+>>>>>>> e2c394b7eaaef337a29747434e53bba75fce9bb0
     }
 
     #testimony #explore {
@@ -248,6 +257,10 @@ a {
         display: flex;
         flex-direction: column;
         gap: 1.6rem;
+    }
+
+    #footer h5:first-of-type {
+        margin-top: 0
     }
 
 /******************************************
